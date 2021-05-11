@@ -1,6 +1,48 @@
 # Basics of HTML
 
-### Document Object Model
+## Page Requests
+
+Page requests are built out of the client-server relationship.
+
+Servers: Machines that hold resources
+
+Clients: Machines for personal use, i.e. laptops, phones, etc
+
+We usually use networks as something called a LAN or a WAN:
+
+- LAN: Local Area Network
+- WAN: Wide Area Network
+
+## URLs
+
+Every URL has 3 parts:
+
+- The Protocol - How you want to connect
+- The Domain - The Server
+- The Document
+
+URLs are basically IP addresses that have been mapped to a name.
+
+
+
+Protocols include HTTPS, HTTP and FTP:
+
+- HTTP: Hypertext Transfer Protocol > Giving back and forth HTML Code
+- HTTPS: Secure Hypertext Transfer Protocol > A secure HTTP
+- FTP: File Transfer Protocol > Transferring Documents around
+
+
+
+## Domain Names / IP Addresses
+
+- Identify the entity you want to connect to.
+
+- IPv6 is the communication protocol that identifies computers on networks.
+- Every computer has a unique IP address, where x can have 16 different values.
+
+
+
+## Document Object Model
 
 DOM is a way to stick by a standard when coding. 
 
@@ -15,13 +57,13 @@ The tree structure of the DOM comprises of the:
 
 
 
-Doctype:
+### Doctype:
 
 - Version of HTML that you're going to be using
 
 
 
-Head:
+### Head:
 
 Additional information used by the browser.
 
@@ -33,7 +75,7 @@ Additional information used by the browser.
 
   
 
-Body:
+### Body:
 
 This is what people see, the bulk of the page.
 
@@ -41,26 +83,68 @@ This is what people see, the bulk of the page.
 
 
 
-Example of Code:
+## HTML Tags and Syntax
 
-'''
+### Display
 
-<!DOCTYPE html>
-<html lang = "en">
-<head>
-    <meta charset = "UTF-8">
-    <title>My First Page</title>
-</head>
-<body>
-    This should be displayed by the browser.
-</body>
-</html>
-</!doctype>
+- Block (take width and height)
 
-'''
+It is like newline, it takes up the entire width.
+
+- Inline (cannot take width and height)
+
+Only uses as much as the element needs.
 
 
 
-### Validating Your Code
+### Common Tags:
 
-Can go to validator.w3.org to test your code and take a look.
+Headings:
+
+- h1, h2, h3, etc.
+
+Paragraphs:
+
+```HTML5
+<p>
+    Should only contain inline elements
+</p>
+
+```
+
+Divisions:
+
+```HTML
+<div>
+    Generic section that is larger than a paragraph
+</div>
+```
+
+Lists:
+
+```HTML
+Ordered Lists:
+<ol>
+    <li>Item One</li>
+    <li>Item Two</li>
+</ol>
+
+
+Unordered Lists:
+<ul>
+    <li>Item One</li>
+    <li>Item Two</li>
+</ul>
+```
+
+### Attributes
+
+- Provide additional information about an element
+- Always specified in the start tag
+- i.e. img src
+
+### Special Entities
+
+- &nbsp
+- &cent
+- &amp, etc etc...
