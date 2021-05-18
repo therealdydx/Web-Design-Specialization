@@ -1,0 +1,87 @@
+/* The body should have padding and margin */
+body{
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+/* The header should have a background color, background image (using a local image), and padding */
+header{
+    background-color:#adadad;
+    padding: 2%;
+    background-image: url("../images/flywheel.jpg");
+    background-size: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* The navigation links (and only the links in the navigation)  should be styled with a new display, margin, border-radius, text-decoration, and padding */
+nav a{
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    -o-border-radius: 3;
+    border-radius: 5px;
+    
+    color: #000;
+    background-color: #ffffff4d;
+    padding: 1% 5%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0.5%;
+    margin-left: 0.5%;
+    font-size: 1.5vw;
+}
+
+/* The link to the current page should be styled differently from the other links (using class = "active') */
+.active{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+nav a:hover{
+    background-color: #0B05;
+}
+
+nav a:focus{
+    background-color: #0B05;
+}
+
+/* create a left bar to accomodate the pictures inside */
+.left{
+    float: left;
+    width: 23%;
+    padding 2%;
+    height: 100vh;
+    background-color: #770;
+    text-align: center;
+    display: inline-block;
+}
+
+.left img{
+    border: 3px solid #020;
+    width: 17vw;
+    margin: 8% 2%;
+    display: inline-block;
+}
+
+.right{
+    margin-left: 22%;
+    padding: 2.5%;
+    font-size: 1.4vw;
+}
+
+h1{
+    text-align:center;
+    color:#ffffff;
+    text-transform:uppercase;
+}
+
+h2{
+    color:#000000;
+    text-transform:uppercase;
+}
+
+img{
+    display:none;
+}
