@@ -556,3 +556,12 @@ The four position properties are:
 - Multiple elements may be placed in the same place
 - Use Z-index to dictate stacking order
 
+## Navigation Menus
+
+- Navigation is a critical aspect of accessibility
+- Sighted users have tried and true visual cues to orient them on a page
+  - Banner
+  - Search Box
+  - Main Navigation Box
+  - Content Well
+

@@ -1,0 +1,137 @@
+body{
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+header{
+    background-color:#adadad;
+    padding: 2%;
+    background-image: url("../images/flywheel.jpg");
+    background-size: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+nav a{
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    -o-border-radius: 3;
+    border-radius: 5px;
+    
+    color: #000;
+    background-color: #ffffff4d;
+    padding: 1% 5%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0.5%;
+    margin-left: 0.5%;
+    font-size: 1.5vw;
+}
+
+.active{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+nav a:hover{
+    background-color: #0B05;
+}
+
+nav a:focus{
+    background-color: #0B05;
+}
+
+.left{
+    float: left;
+    width: 23%;
+    padding 2%;
+    height: 100vh;
+    background-color: #770;
+    text-align: center;
+    display: inline-block;
+}
+
+.left img{
+    border: 3px solid #020;
+    width: 17vw;
+    margin: 8% 2%;
+    display: inline-block;
+}
+
+.right{
+    margin-left: 22%;
+    padding: 2.5%;
+    font-size: 1.4vw;
+}
+
+h1{
+    text-align:center;
+    color:#ffffff;
+    text-transform:uppercase;
+}
+
+h2{
+    color:#000000;
+    text-transform:uppercase;
+}
+
+img{
+    display:none;
+}
+
+/* Create a table here - styled using at least 4 properties */
+table {
+    margin: 0 auto;
+    background: #d3f5cf;
+    border-spacing: 0px;
+    text-align: center;
+    font: 12pt sans-serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Background colour, thicker bottom border and color */
+th{
+    padding: 15px 30px 15px 30px;
+    border-width: 3px 3px 5px 3px;
+    border: 3px solid #FFFFFF;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #2b7019;
+}
+
+/* Top two corners rounded */
+tr > th:first-child{
+    border-top-left-radius: 10px;
+}
+
+tr > th:last-child{
+    border-top-right-radius: 10px;
+}
+
+/* Text in first column is left-aligned */
+tr > td:first-child, th:first-child{
+    text-align: left;
+}
+
+/* Opacity of table rows between 0.6 and 0.8 */
+tr{
+    opacity: .6;
+}
+
+/* Change opacity of a row when hovered over */
+tr:hover{
+    opacity: 1;
+    background-color: #2b7019;
+}
+
+/* Table elements should be styled using 4 properties */
+td{
+    padding: 10px 20px 10px 20px;
+    border: 3px solid #ffffff;
+    font-size: 20px;
+    line-height: 90%;
+}
+
