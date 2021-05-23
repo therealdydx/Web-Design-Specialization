@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en">
+    <head>	
+     <meta charset="UTF-8">	
+       <title>Shipping and Billing</title>
+       <link rel = "stylesheet" href = "css/stylesheet.css">	
+       <script src = "js/billing.js"></script>
+    </head>
+    <body>
+        <h1>JavaScript Homework</h1>	
+           <p>Add the JavaScript code needed to enable auto-complete on this form.  Whenever the checkbox is checked, the code should automatically copy the values from Shipping Name and Shipping Zip into the Billing Name and Billing Zip.  If the checkbox is unchecked, the Billing Name and Billing Zip should go blank.</p>
+   
+        <form>		
+            <fieldset>
+                <!-- Create a form for the shipping information -->
+                <legend>Shipping Information</legend>
+
+                <!-- Create a section for the user name -->
+                <label for ="shippingName">Name:</label>
+                <input type = "text" name = "Name" id = "shippingName" required><br/>
+                
+                <!-- Create a section for the shipping information -->
+                <label for = "shippingzip">Zip code:</label>
+                <input type = "text" name = "zip" id = "shippingZip" pattern = "[0-9]{5}" required><br/>
+            </fieldset>
+            
+            <!-- Now create a form for the billing information, is it the same or not? -->
+            <input type="checkbox" id="same" name="same" onchange= "billingFunction()"/>
+            <label for = "same">Is the Billing Information the Same?</label>
+            
+            <!-- If the billing information is different -->
+            <fieldset>
+                <!-- Create a form for the billing information -->
+                <legend>Billing Information</legend>			  
+                
+                <!-- Create a section for the billing name -->
+                <label for ="billingName">Name:</label>		  
+                <input type = "text" name = "Name" id = "billingName" required><br/>
+                
+                <!-- Create a section for the billing zip -->
+                <label for = "billingzip">Zip code:</label>
+                <input type = "text" name = "zip" id = "billingZip" pattern = "[0-9]{5}" required><br/>
+            </fieldset>
+                <input type = "submit" value = "Verify"/>	
+        </form>
+    </body>
+</html>
