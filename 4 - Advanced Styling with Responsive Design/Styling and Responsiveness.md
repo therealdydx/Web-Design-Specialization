@@ -216,3 +216,80 @@ Or we can do it like this:
 <div class = "col-xs-12 col-md-8">Orange Part</div>
 ```
 
+### Bootstrap Navigation
+
+Example of a bootstrap navigation:
+
+```html
+<ul class = "nav nav-tabs">
+    <li role = "presentation" class = "active"><a href = "#">Home</a></li>
+    <li role = "presentation"><a href = "#">Profile</a></li>
+    <li role = "presentation"><a href = "#">Messages</a></li>
+</ul>
+```
+
+Nav Pills:
+
+```html
+<ul class = "nav nav-pills nav-justified" role = "navigation">
+    <li role = "presentation" class = "active"><a href = "#">Home</a></li>
+    <li role = "presentation"><a href = "#">Profile</a></li>
+    <li role = "presentation"><a href = "#">Messages</a></li>
+</ul>
+```
+
+### Responsive Images
+
+- Write your own code
+- Or use Bootstrap
+
+```html
+<div>
+    <img src = "link" class = "img-responsive img-rounded">
+</div>
+```
+
+- If you don't declare a rule, bootstrap defaults are 12 columns at the xs sizing
+
+```html
+<html>
+    <div id = "container">
+        <div id = "row">
+            <img src = "link" class = "col-sm-6 col-md-4 col-lg-2 img-thumbnail">
+        </div>
+    </div>
+</html>
+```
+
+### Bootstrap Tables
+
+Classes:
+
+- .table: some padding and horizontal dividers
+- .table-striped: zebra stripes where "odd" rows have light color
+- .table-bordered: add borders to table and cells
+- .table-hover: adds hover state styling
+
+Responsive Tables:
+
+- Allows for scrolling tables
+- Above 768px there is just default view
+
+### Templates
+
+Where to find templates:
+
+- bootstrapzero.com
+- startboostrap.com etc
+
+Steps:
+
+- First, decide on a template that best supports your content
+- Download the code
+- Modify the HTML
+- Add or remove components
+
+## Bootstrap 4
+
+- Using more fluid elements or fluid measurements
+- Can use rem and em units where before it didn't use them
